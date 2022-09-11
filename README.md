@@ -42,6 +42,9 @@ Remove `tsconfig.node.json` from the new vite project. And chagne `tsconfig.json
 {
   "extends": "tsconfig/vite.json",
   "include": ["src"]
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  }
 }
 ```
 
@@ -116,6 +119,13 @@ Run the storybook project with
 `yarn storybook`
 
 The first time you may need to close the process and start again.
+
+Add storybook-static to .gitignore
+
+```
+#storybook
+storybook-static
+```
 
 # Turborepo starter
 
