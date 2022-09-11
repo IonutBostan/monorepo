@@ -127,6 +127,16 @@ Add storybook-static to .gitignore
 storybook-static
 ```
 
+## 5. Setup turborepo remote cache
+
+Authenticate the Turborepo CLI with your Vercel account:
+
+`npx turbo login`
+
+Next, link your Turborepo to your remote cache:
+
+`npx turbo link`
+
 # Turborepo starter
 
 This is an official Yarn v1 starter turborepo.
