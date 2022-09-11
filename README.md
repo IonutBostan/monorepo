@@ -6,6 +6,12 @@
 
 Set the project name and choose yarn as package manager.
 
+## 2. Remove docs and web projects from apps
+
+`rm -rf apps/docs`
+
+`rm -rf apps/web`
+
 # Turborepo starter
 
 This is an official Yarn v1 starter turborepo.
