@@ -34,7 +34,7 @@ Return to the monorepo root path and install the node dependencie
 
 `cd ..`
 
-`yarn install vite`
+`yarn install`
 
 Remove `tsconfig.node.json` from the new vite project. And chagne `tsconfig.json` with:
 
@@ -69,6 +69,53 @@ Create a new vite.json file to `packages/tsconfig/`
 Try the project running
 
 `yarn dev`
+
+## 4. Add storybook
+
+`cd apps`
+
+`yarn create vite` naming docs the new project
+
+`cd docs`
+
+`npx sb init --builder @storybook/builder-vite`
+
+Remove node_modules folder from the docs folder
+
+`rm -rf node_modules`
+
+Return to the root folder and install the dependencies
+
+`cd ../..`
+
+`yarn install`
+
+Add the following script to the root package.json file
+
+```
+"scripts": {
+  "storybook": "turbo run storybook",
+  ...
+}
+```
+
+Add the same command to the turbo.json
+
+```
+"pipeline": {
+  ...
+  "storybook": {
+    "cache": false
+  }
+}
+
+```
+
+Run the storybook project with
+
+`yarn storybook`
+
+The first time you may need to close the process and start again.
 
 # Turborepo starter
 
