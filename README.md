@@ -12,6 +12,64 @@ Set the project name and choose yarn as package manager.
 
 `rm -rf apps/web`
 
+`rm packages/tsconfig/nextjs.json`
+
+## 3. Add vite-react project to apps
+
+`cd apps`
+
+`yarn create vite`
+
+Add tsconfig dependencie to `package.json`
+
+```
+  "devDependencies": {
+    "tsconfig": "*",
+    ...
+  }
+
+```
+
+Return to the monorepo root path and install the node dependencie
+
+`cd ..`
+
+`yarn install vite`
+
+Remove `tsconfig.node.json` from the new vite project. And chagne `tsconfig.json` with:
+
+```
+{
+  "extends": "tsconfig/vite.json",
+  "include": ["src"]
+}
+```
+
+Create a new vite.json file to `packages/tsconfig/`
+
+```
+{
+  "extends": "tsconfig/base.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true
+  },
+  "exclude": ["node_modules"]
+}
+```
+
+Try the project running
+
+`yarn dev`
+
 # Turborepo starter
 
 This is an official Yarn v1 starter turborepo.
