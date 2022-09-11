@@ -1,3 +1,11 @@
+# Step by step monorepo setup
+
+## 1. Start from the turborepo boilarplate running
+
+`npx create-turbo@latest`
+
+Set the project name and choose yarn as package manager.
+
 # Turborepo starter
 
 This is an official Yarn v1 starter turborepo.
