@@ -1,3 +1,9 @@
+# Preview
+
+Web - http://web-ionutbostan.vercel.app/
+
+Docs - http://docs-ionutbostan.vercel.app/
+
 # Step by step monorepo setup
 
 ## 1. Start from the turborepo boilarplate running
