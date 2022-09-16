@@ -10,6 +10,8 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
+    "test": "turbo run test",
+    "test:dev": "turbo run test:dev",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "storybook": "turbo run storybook",
     "prepare": "husky install"
