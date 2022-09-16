@@ -6,6 +6,10 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "apps/docs**"
+      - "packages/**"
+      - ".github/workflows/docs-app-prod.yml"
 jobs:
   Deploy-Production:
     runs-on:
