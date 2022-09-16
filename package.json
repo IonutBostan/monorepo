@@ -11,18 +11,31 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "storybook": "turbo run storybook"
+    "storybook": "turbo run storybook",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
-    "prettier": "latest",
-    "turbo": "latest"
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1",
+    "turbo": "1.4.6",
+    "vercel": "28.2.5"
   },
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {
-    "vercel": "28.2.5"
-  },
-  "packageManager": "yarn@1.22.19"
+  "dependencies": {},
+  "packageManager": "yarn@1.22.19",
+  "lint-staged": {
+    "apps/**/*.{js,ts,jsx,tsx}": [
+      "eslint --fix"
+    ],
+    "packages/ui/**/*.{js,ts,jsx,tsx}": [
+      "eslint --fix"
+    ],
+    "*.json": [
+      "prettier --write"
+    ]
+  }
 }
