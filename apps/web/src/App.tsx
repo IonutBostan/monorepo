@@ -41,8 +41,8 @@ function App() {
                       </a>
                       <a
                         className="group -m-1 p-1"
-                        aria-label="Follow on Instagram"
-                        href="https://instagram.com"
+                        aria-label="React"
+                        href="https://reactjs.org"
                       >
                         <img
                           src={reactLogo}
