@@ -9,6 +9,7 @@ module.exports = {
     'plugin:import/recommended',
     'plugin:import/typescript',
     'prettier',
+    'plugin:storybook/recommended',
   ],
   plugins: ['@typescript-eslint', 'import'],
   rules: {
@@ -22,6 +23,9 @@ module.exports = {
         namedComponents: 'arrow-function',
       },
     ],
+    'react/jsx-props-no-spreading': 'off',
+    'react/require-default-props': 'off',
+    'import/prefer-default-export': 'off',
   },
   ignorePatterns: [
     '**/*.js',
@@ -34,5 +38,6 @@ module.exports = {
     'coverage',
     'dist',
     '.turbo',
+    '.storybook',
   ],
 }
