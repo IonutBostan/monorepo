@@ -35,7 +35,7 @@
   "dependencies": {},
   "packageManager": "yarn@1.22.19",
   "lint-staged": {
-    "apps/**/*.{js,ts,jsx,tsx}": [
+    "apps/web/*.{js,ts,jsx,tsx}": [
       "eslint --fix"
     ],
     "packages/ui/**/*.{js,ts,jsx,tsx}": [
