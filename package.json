@@ -17,7 +17,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.11",
+    "autoprefixer": "10.4.12",
     "eslint-config-custom": "*",
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
