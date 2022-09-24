@@ -17,9 +17,22 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  --header-height: 180px;
+  --header-mb: -116px;
+  --header-position: sticky;
+  --avatar-top: 0px;
+  --avatar-border-opacity: 0;
+  --avatar-border-transform: translate3d(-0.222222rem, 0, 0);
+  --content-offset: 116px;
+
+}
+
+html {
+  height: 100%;
 }
 
 body {
+  height: 100%;
   /* margin: 0; */
   /* display: flex; */
   /* place-items: center; */
@@ -32,6 +45,7 @@ body {
 }
 
 #root {
+  height: 100%;
   /* max-width: 1280px; */
   /* margin: 0 auto; */
   /* padding: 2rem; */
