@@ -1,4 +1,5 @@
 import reactLogo from './assets/react.svg'
+import Combobox from './components/Combobox/Combobox'
 
 const App = () => (
   <div
@@ -55,6 +56,7 @@ const App = () => (
             </div>
           </div>
         </div>
+
         <div className="mt-16 sm:mt-20">
           <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
             <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl rotate-2">
@@ -131,6 +133,20 @@ const App = () => (
                 loading="lazy"
                 style={{ color: 'transparent' }}
               />
+            </div>
+          </div>
+        </div>
+        <div className="sm:px-8 mt-24 md:mt-28">
+          <div className="mx-auto max-w-7xl lg:px-8">
+            <div className="relative px-4 sm:px-8 lg:px-12">
+              <div className="mx-auto max-w-2xl lg:max-w-5xl">
+                <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                  Search with highlighted input text example
+                </p>
+                <div className="mt-8 w-64">
+                  <Combobox />
+                </div>
+              </div>
             </div>
           </div>
         </div>
