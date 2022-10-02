@@ -19,6 +19,9 @@
     },
     "storybook": {
       "cache": false
+    },
+    "adoptme": {
+      "cache": false
     }
   }
 }
