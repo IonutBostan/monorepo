@@ -1,32 +1,102 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { useEffect, useState } from 'react'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+type Pet = {
+  images: string[]
+  name: string
+  city: string
+  breed: string
+  animal: string
+}
+
+const animals = ['Dog', 'Cat', 'Bird', 'Rabbit', 'Reptile']
+
+const App = () => {
+  const [selectedAnimal, setSelectedAnimal] = useState('dog')
+  const [breeds, setBreeds] = useState([])
+  const [pets, setPets] = useState([])
+
+  useEffect(() => {
+    fetch(`http://pets-v2.dev-apis.com/breeds?animal=${selectedAnimal}`).then(
+      res => {
+        res.json().then(json => {
+          setBreeds(json.breeds)
+        })
+      },
+    )
+  }, [selectedAnimal])
+
+  useEffect(() => {
+    const localLocation = ''
+    const localBreed = ''
+    fetch(
+      `http://pets-v2.dev-apis.com/pets?animal=${selectedAnimal}&location=${localLocation}&breed=${localBreed}`,
+    ).then(res => {
+      res.json().then(json => {
+        setPets(json.pets)
+      })
+    })
+  }, [selectedAnimal])
+
+  const onChangeHandler = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    setSelectedAnimal(e.target.value)
+  }
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="w-full h-full">
+      <h1 className="mb-4">Adopt Me</h1>
+      <div className="mx-10">
+        <form className="bg-slate-100 shadow-md p-4 max-w-xs">
+          <div className="pb-4">
+            <div>Location</div>
+            <input className="w-full" type="text" placeholder="Location" />
+          </div>
+          <div className="pb-4">
+            <div>Animal</div>
+            <select
+              className="w-full"
+              value={selectedAnimal}
+              onChange={onChangeHandler}
+            >
+              {animals.map(animal => (
+                <option key={animal} value={animal.toLowerCase()}>
+                  {animal}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div className="pb-4">
+            <div>
+              <span className="capitalize">{selectedAnimal}</span> breed
+            </div>
+            <select className="w-full">
+              {breeds?.map(breed => (
+                <option key={breed} value={breed}>
+                  {breed}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div className="w-full text-center">
+            <button className="bg-red-300" type="submit">
+              Submit
+            </button>
+          </div>
+        </form>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {pets.map((pet: Pet) => (
+        <div>
+          <img
+            className="rounded w-24 h-24"
+            src={pet.images?.[0]}
+            alt={pet.name}
+          />
+          <div className="info">
+            <h1>{pet.name}</h1>
+            <h2>{`${pet.animal} — ${pet.breed} — ${pet.city}`}</h2>
+          </div>
+        </div>
+      ))}
     </div>
   )
 }
