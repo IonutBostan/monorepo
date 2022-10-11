@@ -9,7 +9,7 @@
   "dependencies": {
     "eslint": "8.24.0",
     "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-react": "7.31.8",
+    "eslint-plugin-react": "7.31.10",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-testing-library": "5.7.2",
     "eslint-config-turbo": "0.0.4",
