@@ -7,9 +7,9 @@ on:
     branches:
       - main
     paths:
-      - "apps/docs**"
-      - "packages/**"
-      - ".github/workflows/docs-app-prod.yml"
+      - 'apps/docs**'
+      - 'packages/**'
+      - '.github/workflows/docs-app-prod.yml'
 jobs:
   Deploy-Production:
     runs-on:
@@ -20,13 +20,13 @@ jobs:
       TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Setup Node.js environment
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: "yarn"
+          cache: 'yarn'
 
       - name: Pull Vercel Environment Information
         run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
