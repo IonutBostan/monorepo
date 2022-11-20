@@ -2055,20 +2055,20 @@
     slash "^3.0.0"
     util "^0.12.4"
 
-"@storybook/builder-vite@7.0.0-alpha.50":
-  version "7.0.0-alpha.50"
-  resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.0.0-alpha.50.tgz#481d0300eccbc1a64f0db1ede5b508af70da34e4"
-  integrity sha512-G6vruQIIYhaq6EMHWqn12tAy3XS+G+Hk58x987rFk+4pjzs94EsJNvXMEPa8PfTlk1Vr2gSughLmb4Bck0HVVA==
+"@storybook/builder-vite@7.0.0-alpha.51":
+  version "7.0.0-alpha.51"
+  resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.0.0-alpha.51.tgz#022d1fea249afd7a08224897dafcb93d665b7ac4"
+  integrity sha512-OHqjHVgHOV60OzUW/wYIO2kj5/kFgbGs/P5LFKLMa2MLOqwhDu8E+HCd43KUO8d+aqwSwLvHlLuRiGKy6jyUjA==
   dependencies:
     "@joshwooding/vite-plugin-react-docgen-typescript" "0.0.5"
-    "@storybook/client-api" "7.0.0-alpha.50"
-    "@storybook/client-logger" "7.0.0-alpha.50"
-    "@storybook/core-common" "7.0.0-alpha.50"
+    "@storybook/client-api" "7.0.0-alpha.51"
+    "@storybook/client-logger" "7.0.0-alpha.51"
+    "@storybook/core-common" "7.0.0-alpha.51"
     "@storybook/mdx2-csf" next
-    "@storybook/node-logger" "7.0.0-alpha.50"
-    "@storybook/preview-web" "7.0.0-alpha.50"
-    "@storybook/source-loader" "7.0.0-alpha.50"
-    "@storybook/types" "7.0.0-alpha.50"
+    "@storybook/node-logger" "7.0.0-alpha.51"
+    "@storybook/preview-web" "7.0.0-alpha.51"
+    "@storybook/source-loader" "7.0.0-alpha.51"
+    "@storybook/types" "7.0.0-alpha.51"
     "@vitejs/plugin-react" "^2.0.0"
     browser-assert "^1.2.1"
     es-module-lexer "^0.9.3"
@@ -2090,6 +2090,18 @@
     qs "^6.10.0"
     telejson "^6.0.8"
 
+"@storybook/channel-postmessage@7.0.0-alpha.51":
+  version "7.0.0-alpha.51"
+  resolved "https://registry.yarnpkg.com/@storybook/channel-postmessage/-/channel-postmessage-7.0.0-alpha.51.tgz#37d7caa70cd6b1ab64a7758a3e63053bef491e23"
+  integrity sha512-fyCP0t+YL9v9CfCaqAHQrgcnV3q2vzNGZEsz+zbRFwc3rWBIEd7aMnTvpZs3i04CMyV16wBGLWN49IrkQB5IsQ==
+  dependencies:
+    "@storybook/channels" "7.0.0-alpha.51"
+    "@storybook/client-logger" "7.0.0-alpha.51"
+    "@storybook/core-events" "7.0.0-alpha.51"
+    global "^4.4.0"
+    qs "^6.10.0"
+    telejson "^6.0.8"
+
 "@storybook/channel-websocket@7.0.0-alpha.50":
   version "7.0.0-alpha.50"
   resolved "https://registry.yarnpkg.com/@storybook/channel-websocket/-/channel-websocket-7.0.0-alpha.50.tgz#028d8521b27601d50192d4ddfff55fd4cf15ea4e"
@@ -2097,6 +2109,16 @@
   dependencies:
     "@storybook/channels" "7.0.0-alpha.50"
     "@storybook/client-logger" "7.0.0-alpha.50"
+    global "^4.4.0"
+    telejson "^6.0.8"
+
+"@storybook/channel-websocket@7.0.0-alpha.51":
+  version "7.0.0-alpha.51"
+  resolved "https://registry.yarnpkg.com/@storybook/channel-websocket/-/channel-websocket-7.0.0-alpha.51.tgz#72c00379593c5be142893d5745d1bafcf326d618"
+  integrity sha512-NJrjKvXFo/X8RmixnO00LRdotzU7czoF8mRmYS/q/BO8QKdnvnFRphzYAsHaQxOzTDoxhfNTAxpZos5gMtXZqQ==
+  dependencies:
+    "@storybook/channels" "7.0.0-alpha.51"
+    "@storybook/client-logger" "7.0.0-alpha.51"
     global "^4.4.0"
     telejson "^6.0.8"
 
@@ -2169,6 +2191,24 @@
     "@storybook/csf" "0.0.2-next.7"
     "@storybook/store" "7.0.0-alpha.50"
     "@storybook/types" "7.0.0-alpha.50"
+    "@types/qs" "^6.9.5"
+    "@types/webpack-env" "^1.16.4"
+    global "^4.4.0"
+    qs "^6.10.0"
+    synchronous-promise "^2.0.15"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/client-api@7.0.0-alpha.51":
+  version "7.0.0-alpha.51"
+  resolved "https://registry.yarnpkg.com/@storybook/client-api/-/client-api-7.0.0-alpha.51.tgz#09743886a84644aaa02aef7c09fba383f6ba985f"
+  integrity sha512-HOKwkqfb2igi/0iREuM0UccNKyAK7/qFctoHr6jt2Rs8UO89Gx0QteJ764huZjgI/3GLzxn+iSrhHkec1Ec8XQ==
+  dependencies:
+    "@storybook/addons" "7.0.0-alpha.51"
+    "@storybook/client-logger" "7.0.0-alpha.51"
+    "@storybook/csf" next
+    "@storybook/store" "7.0.0-alpha.51"
+    "@storybook/types" "7.0.0-alpha.51"
     "@types/qs" "^6.9.5"
     "@types/webpack-env" "^1.16.4"
     global "^4.4.0"
@@ -2257,6 +2297,25 @@
     "@storybook/preview-web" "7.0.0-alpha.50"
     "@storybook/store" "7.0.0-alpha.50"
     "@storybook/types" "7.0.0-alpha.50"
+    global "^4.4.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/core-client@7.0.0-alpha.51":
+  version "7.0.0-alpha.51"
+  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-alpha.51.tgz#60d1f61057c80647de8ea0065d2b796292ca9b0a"
+  integrity sha512-xS1omaNeI4LqX572z6WwXmemVH/FIw6HId5fFxbEM88fUUYqFEKyHv8tHH62MAW9tlmgsO/Ci1IS42FSfHrWgg==
+  dependencies:
+    "@storybook/addons" "7.0.0-alpha.51"
+    "@storybook/channel-postmessage" "7.0.0-alpha.51"
+    "@storybook/channel-websocket" "7.0.0-alpha.51"
+    "@storybook/channels" "7.0.0-alpha.51"
+    "@storybook/client-api" "7.0.0-alpha.51"
+    "@storybook/client-logger" "7.0.0-alpha.51"
+    "@storybook/core-events" "7.0.0-alpha.51"
+    "@storybook/csf" next
+    "@storybook/preview-web" "7.0.0-alpha.51"
+    "@storybook/store" "7.0.0-alpha.51"
+    "@storybook/types" "7.0.0-alpha.51"
     global "^4.4.0"
     util-deprecate "^1.0.2"
 
@@ -2572,20 +2631,20 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/react-vite@7.0.0-alpha.50":
-  version "7.0.0-alpha.50"
-  resolved "https://registry.yarnpkg.com/@storybook/react-vite/-/react-vite-7.0.0-alpha.50.tgz#f9e4b226f139f7930e939f6bd12f33104e8ba5dc"
-  integrity sha512-eW9+qA10vygHaiK5ptXjUcYuL4HLkMoWXqnAda7t0YZ7UccSCsldsm8fgPSdWch4/IyFzoTR02hNkQ3/VzO4vA==
+"@storybook/react-vite@7.0.0-alpha.51":
+  version "7.0.0-alpha.51"
+  resolved "https://registry.yarnpkg.com/@storybook/react-vite/-/react-vite-7.0.0-alpha.51.tgz#6c411d4d7c7a47e1031e743cd1d4b41a6591bcc2"
+  integrity sha512-48MwUOrfvAQ7cD+cn5thiKa/M8eVJKMZtTfEW7LxrAFb4XKuywMoov1XWBr+CmcOhPDQ+QAaMmqHkDRZLssi/w==
   dependencies:
     "@joshwooding/vite-plugin-react-docgen-typescript" "^0.0.5"
     "@rollup/pluginutils" "^4.2.0"
-    "@storybook/addons" "7.0.0-alpha.50"
-    "@storybook/builder-vite" "7.0.0-alpha.50"
-    "@storybook/channel-postmessage" "7.0.0-alpha.50"
-    "@storybook/channel-websocket" "7.0.0-alpha.50"
-    "@storybook/client-api" "7.0.0-alpha.50"
-    "@storybook/preview-web" "7.0.0-alpha.50"
-    "@storybook/react" "7.0.0-alpha.50"
+    "@storybook/addons" "7.0.0-alpha.51"
+    "@storybook/builder-vite" "7.0.0-alpha.51"
+    "@storybook/channel-postmessage" "7.0.0-alpha.51"
+    "@storybook/channel-websocket" "7.0.0-alpha.51"
+    "@storybook/client-api" "7.0.0-alpha.51"
+    "@storybook/preview-web" "7.0.0-alpha.51"
+    "@storybook/react" "7.0.0-alpha.51"
     "@vitejs/plugin-react" "^2.0.0"
     ast-types "^0.14.2"
     magic-string "^0.26.1"
@@ -2605,6 +2664,32 @@
     "@storybook/types" "7.0.0-alpha.50"
     "@types/estree" "^0.0.51"
     "@types/node" "^16.0.0"
+    acorn "^7.4.1"
+    acorn-jsx "^5.3.1"
+    acorn-walk "^7.2.0"
+    escodegen "^2.0.0"
+    global "^4.4.0"
+    html-tags "^3.1.0"
+    lodash "^4.17.21"
+    prop-types "^15.7.2"
+    react-element-to-jsx-string "^15.0.0"
+    ts-dedent "^2.0.0"
+    type-fest "^2.19.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/react@7.0.0-alpha.51":
+  version "7.0.0-alpha.51"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0-alpha.51.tgz#f4016c794c02ebbb0b37be36155d7d26c90de172"
+  integrity sha512-u/peXAMyhJc+XrHQAyJPYaa98gIhBlfrHmCjrOrOeHN5B5L+6EsyZyhluj814BLZOOlxK1/nWz2M9p4XdQJq3Q==
+  dependencies:
+    "@storybook/addons" "7.0.0-alpha.51"
+    "@storybook/client-logger" "7.0.0-alpha.51"
+    "@storybook/core-client" "7.0.0-alpha.51"
+    "@storybook/docs-tools" "7.0.0-alpha.51"
+    "@storybook/store" "7.0.0-alpha.51"
+    "@storybook/types" "7.0.0-alpha.51"
+    "@types/estree" "^0.0.51"
+    "@types/node" "^16.0.0 || ^18.0.0"
     acorn "^7.4.1"
     acorn-jsx "^5.3.1"
     acorn-walk "^7.2.0"
@@ -2655,16 +2740,16 @@
     core-js "^3.6.5"
     find-up "^4.1.0"
 
-"@storybook/source-loader@7.0.0-alpha.50":
-  version "7.0.0-alpha.50"
-  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-7.0.0-alpha.50.tgz#2c70a29db7b4ffc85f57d04ae89bda1327885be2"
-  integrity sha512-m4aul2NzrvIml0MgXk8UioO+AhxO4T1zOu3t96mV6tDIn+CkVQxrvh+MOPHl0tjEmz1IxQ1a0u0jAzlaoS6rxA==
+"@storybook/source-loader@7.0.0-alpha.51":
+  version "7.0.0-alpha.51"
+  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-7.0.0-alpha.51.tgz#2068fd27914694757338fb7657caa4cb49c83cce"
+  integrity sha512-VxiYF4gQ9pLjNq5ExKBqWEwE/RdE0ZxcP84fMsTsffiYZSYA72yNzBpUvjclj9mKBjcEtW/+t7FW+i7XLBuUEQ==
   dependencies:
-    "@storybook/csf" "0.0.2-next.7"
-    "@storybook/types" "7.0.0-alpha.50"
+    "@storybook/csf" next
+    "@storybook/types" "7.0.0-alpha.51"
     estraverse "^5.2.0"
     lodash "^4.17.21"
-    prettier ">=2.2.1 <=3.0.0"
+    prettier "^2.7.1"
 
 "@storybook/store@7.0.0-alpha.50":
   version "7.0.0-alpha.50"
@@ -9293,7 +9378,7 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha512-ravE6m9Atw9Z/jjttRUZ+clIXogdghyZAuWJ3qEzjT+jI/dL1ifAqhZeC5VHzQp1MSt1+jxKkFNemj/iO7tVUA==
 
-prettier@2.7.1, "prettier@>=2.2.1 <=3.0.0":
+prettier@2.7.1, "prettier@>=2.2.1 <=3.0.0", prettier@^2.7.1:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
   integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
