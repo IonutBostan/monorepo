@@ -10,8 +10,8 @@ on:
       - 'apps/docs**'
       - 'packages/**'
       - '.github/workflows/docs-app-prod.yml'
-  workflow_dispatch
-  
+  workflow_dispatch:
+
 jobs:
   Deploy-Production:
     runs-on:
