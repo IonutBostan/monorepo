@@ -1784,21 +1784,21 @@
     "@storybook/core-events" "7.0.0-alpha.51"
     global "^4.4.0"
 
-"@storybook/addon-interactions@7.0.0-alpha.50":
-  version "7.0.0-alpha.50"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.0.0-alpha.50.tgz#90a64e9f2a9323bf490a5b579ac11fa3c8e8c05f"
-  integrity sha512-vS1of1AFTxhNfPchWSowLjSG4TfFk1kyBa6YiSr7fbCbyFG2I8TezrKq/Nc2rSI2qhcrFIwy2RZ5zHE1Rzsmqg==
+"@storybook/addon-interactions@7.0.0-alpha.51":
+  version "7.0.0-alpha.51"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.0.0-alpha.51.tgz#0db9a15cc2522b3167cf77ee1fb2e018298a2132"
+  integrity sha512-99dXhb8fLZ0k5Z4EO4Ofvm9mrXpDAzDPyuJcdrxm9cwFtZ9fugAFs9i+OEw57rxNQSGlS9jXKCLdQZsoQ3hcCw==
   dependencies:
     "@devtools-ds/object-inspector" "^1.1.2"
-    "@storybook/addons" "7.0.0-alpha.50"
-    "@storybook/api" "7.0.0-alpha.50"
-    "@storybook/client-logger" "7.0.0-alpha.50"
-    "@storybook/components" "7.0.0-alpha.50"
-    "@storybook/core-common" "7.0.0-alpha.50"
-    "@storybook/core-events" "7.0.0-alpha.50"
-    "@storybook/instrumenter" "7.0.0-alpha.50"
-    "@storybook/theming" "7.0.0-alpha.50"
-    "@storybook/types" "7.0.0-alpha.50"
+    "@storybook/addons" "7.0.0-alpha.51"
+    "@storybook/api" "7.0.0-alpha.51"
+    "@storybook/client-logger" "7.0.0-alpha.51"
+    "@storybook/components" "7.0.0-alpha.51"
+    "@storybook/core-common" "7.0.0-alpha.51"
+    "@storybook/core-events" "7.0.0-alpha.51"
+    "@storybook/instrumenter" "7.0.0-alpha.51"
+    "@storybook/theming" "7.0.0-alpha.51"
+    "@storybook/types" "7.0.0-alpha.51"
     global "^4.4.0"
     jest-mock "^27.0.6"
     polished "^4.2.2"
@@ -2511,15 +2511,15 @@
     doctrine "^3.0.0"
     lodash "^4.17.21"
 
-"@storybook/instrumenter@7.0.0-alpha.50":
-  version "7.0.0-alpha.50"
-  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-7.0.0-alpha.50.tgz#4805b356f4469c276d1adbf9fce9659cae7db5fe"
-  integrity sha512-76DlHEiPyV2siWUGdV4UCgkMyZVBYBFG9ISP6OoGZkJ5E8ATuzM09mPKAk8lD+fgN5F1l1q2SZw3h0vk0XUSUw==
+"@storybook/instrumenter@7.0.0-alpha.51":
+  version "7.0.0-alpha.51"
+  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-7.0.0-alpha.51.tgz#d3fe1a34ffba5193ebe4b8335aa3ea6c8395fd62"
+  integrity sha512-9hbvDmnXwIOdtRcXA3O1NbrqBqXVBcyzjPp6N12s6aT/SuoNMLac9EbMwaeV7yrCWtDR7CxBe4Eok+i2cTWwNA==
   dependencies:
-    "@storybook/addons" "7.0.0-alpha.50"
-    "@storybook/channels" "7.0.0-alpha.50"
-    "@storybook/client-logger" "7.0.0-alpha.50"
-    "@storybook/core-events" "7.0.0-alpha.50"
+    "@storybook/addons" "7.0.0-alpha.51"
+    "@storybook/channels" "7.0.0-alpha.51"
+    "@storybook/client-logger" "7.0.0-alpha.51"
+    "@storybook/core-events" "7.0.0-alpha.51"
     core-js "^3.8.2"
     global "^4.4.0"
 
