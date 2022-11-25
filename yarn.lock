@@ -2273,6 +2273,14 @@
     global "^4.4.0"
     util-deprecate "^1.0.2"
 
+"@storybook/core-client@7.0.0-alpha.54":
+  version "7.0.0-alpha.54"
+  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-alpha.54.tgz#aff99e28db2c5741db0149b0a0b716be4fae8d97"
+  integrity sha512-hc8yzdnbZMpBrGc0jbxFZZ8JDZIgmp48GOhUfrjJLdYaKwN5B0LsClOAjoA60AtJw0JTiHWh6VZQIlAX/TsJIw==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-alpha.54"
+    "@storybook/preview-api" "7.0.0-alpha.54"
+
 "@storybook/core-common@7.0.0-alpha.53":
   version "7.0.0-alpha.53"
   resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.0.0-alpha.53.tgz#d66a231a6b78d74114d9cb75bb806551fd2e75a3"
@@ -2642,6 +2650,31 @@
     "@storybook/docs-tools" "7.0.0-alpha.53"
     "@storybook/store" "7.0.0-alpha.53"
     "@storybook/types" "7.0.0-alpha.53"
+    "@types/estree" "^0.0.51"
+    "@types/node" "^16.0.0"
+    acorn "^7.4.1"
+    acorn-jsx "^5.3.1"
+    acorn-walk "^7.2.0"
+    escodegen "^2.0.0"
+    global "^4.4.0"
+    html-tags "^3.1.0"
+    lodash "^4.17.21"
+    prop-types "^15.7.2"
+    react-element-to-jsx-string "^15.0.0"
+    ts-dedent "^2.0.0"
+    type-fest "^2.19.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/react@7.0.0-alpha.54":
+  version "7.0.0-alpha.54"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0-alpha.54.tgz#0b67056dc2b3307342a37b28daceb8b40c6b4162"
+  integrity sha512-YadWavM2ts28Xwi/b76Q2mKRvRTetmYIG4SePWaK3TjFZGd6ZD9aeeN2ZupEgVtMyRA5zxTpPL9KjNfdHcj8TQ==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-alpha.54"
+    "@storybook/core-client" "7.0.0-alpha.54"
+    "@storybook/docs-tools" "7.0.0-alpha.54"
+    "@storybook/preview-api" "7.0.0-alpha.54"
+    "@storybook/types" "7.0.0-alpha.54"
     "@types/estree" "^0.0.51"
     "@types/node" "^16.0.0"
     acorn "^7.4.1"
