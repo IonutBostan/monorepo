@@ -1817,21 +1817,21 @@
     "@storybook/preview-api" "7.0.0-alpha.55"
     global "^4.4.0"
 
-"@storybook/addon-interactions@7.0.0-alpha.55":
-  version "7.0.0-alpha.55"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.0.0-alpha.55.tgz#9904cb2a600915bece20f5485f87f087406c8926"
-  integrity sha512-khI+bx5ZhCtcscpxIAkIzIdi+BfZ7IY4G0bvUFEPgYAUhNiXJCv4wbB0k2Zob0nnwpeC0l0ViJFsDhVBAvykKA==
+"@storybook/addon-interactions@7.0.0-alpha.56":
+  version "7.0.0-alpha.56"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.0.0-alpha.56.tgz#50adaaf36a4ce0ed6bcc81579a5b801b9aa5b6b3"
+  integrity sha512-XQrTJrYFwdqENCWFxWlmZ3Cw8LEXgSBQQu5k514+EIU1t7BBEApN+TioQwpt2flrD9hzaBhmtHYgrRhIqAwN1A==
   dependencies:
     "@devtools-ds/object-inspector" "^1.1.2"
-    "@storybook/client-logger" "7.0.0-alpha.55"
-    "@storybook/components" "7.0.0-alpha.55"
-    "@storybook/core-common" "7.0.0-alpha.55"
-    "@storybook/core-events" "7.0.0-alpha.55"
-    "@storybook/instrumenter" "7.0.0-alpha.55"
-    "@storybook/manager-api" "7.0.0-alpha.55"
-    "@storybook/preview-api" "7.0.0-alpha.55"
-    "@storybook/theming" "7.0.0-alpha.55"
-    "@storybook/types" "7.0.0-alpha.55"
+    "@storybook/client-logger" "7.0.0-alpha.56"
+    "@storybook/components" "7.0.0-alpha.56"
+    "@storybook/core-common" "7.0.0-alpha.56"
+    "@storybook/core-events" "7.0.0-alpha.56"
+    "@storybook/instrumenter" "7.0.0-alpha.56"
+    "@storybook/manager-api" "7.0.0-alpha.56"
+    "@storybook/preview-api" "7.0.0-alpha.56"
+    "@storybook/theming" "7.0.0-alpha.56"
+    "@storybook/types" "7.0.0-alpha.56"
     global "^4.4.0"
     jest-mock "^27.0.6"
     polished "^4.2.2"
@@ -2155,6 +2155,18 @@
     memoizerific "^1.11.3"
     util-deprecate "^1.0.2"
 
+"@storybook/components@7.0.0-alpha.56":
+  version "7.0.0-alpha.56"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.0.0-alpha.56.tgz#f03874f85e0f414511c8889ecd3f7c8feb7a15cd"
+  integrity sha512-FtBMq7tdefg4/pkgcsr0Z1OaEEYp1SrFwABpMDQnydqtlUtXXOTXpesscPyfDxOVGyUQhb7sZjfFn6340i+WuA==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-alpha.56"
+    "@storybook/csf" next
+    "@storybook/theming" "7.0.0-alpha.56"
+    "@storybook/types" "7.0.0-alpha.56"
+    memoizerific "^1.11.3"
+    util-deprecate "^1.0.2"
+
 "@storybook/core-client@7.0.0-alpha.55":
   version "7.0.0-alpha.55"
   resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-alpha.55.tgz#378bf27375dfcf53ad0af3030c2b7a8413c29427"
@@ -2375,15 +2387,15 @@
     doctrine "^3.0.0"
     lodash "^4.17.21"
 
-"@storybook/instrumenter@7.0.0-alpha.55":
-  version "7.0.0-alpha.55"
-  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-7.0.0-alpha.55.tgz#b2810c1fb1bf47fdc31ded4b2f9b343e96fa6dc7"
-  integrity sha512-5iFl/gqGrJHjacqJlFPAFCEr+9MzGArZCrOy3hZRnyq3YV/bg1Fycqs7zU0cNpGB4W3GKOmTyPufS97D3se22Q==
+"@storybook/instrumenter@7.0.0-alpha.56":
+  version "7.0.0-alpha.56"
+  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-7.0.0-alpha.56.tgz#5d511e44e6d8a6886ddb123c3ddcf156cdb56ae5"
+  integrity sha512-0JZoP1KUKVr+9W5aQiDR2yc+zA0yvSz2G7OolXRLZcPeI9RprQzISxGlwWFYMsTa4J/FNCPqcBexOPW4JvveeA==
   dependencies:
-    "@storybook/channels" "7.0.0-alpha.55"
-    "@storybook/client-logger" "7.0.0-alpha.55"
-    "@storybook/core-events" "7.0.0-alpha.55"
-    "@storybook/preview-api" "7.0.0-alpha.55"
+    "@storybook/channels" "7.0.0-alpha.56"
+    "@storybook/client-logger" "7.0.0-alpha.56"
+    "@storybook/core-events" "7.0.0-alpha.56"
+    "@storybook/preview-api" "7.0.0-alpha.56"
     core-js "^3.8.2"
     global "^4.4.0"
 
@@ -2410,6 +2422,27 @@
     "@storybook/router" "7.0.0-alpha.55"
     "@storybook/theming" "7.0.0-alpha.55"
     "@storybook/types" "7.0.0-alpha.55"
+    dequal "^2.0.2"
+    global "^4.4.0"
+    lodash "^4.17.21"
+    memoizerific "^1.11.3"
+    semver "^7.3.7"
+    store2 "^2.12.0"
+    telejson "^7.0.3"
+    ts-dedent "^2.0.0"
+
+"@storybook/manager-api@7.0.0-alpha.56":
+  version "7.0.0-alpha.56"
+  resolved "https://registry.yarnpkg.com/@storybook/manager-api/-/manager-api-7.0.0-alpha.56.tgz#22bcc5b6b249d3e9cad3d5359e87ee141e1a4298"
+  integrity sha512-Xot9ltTKSMIo8Kn5mrSuMUFES/uam7q+sv7s3oViQAS/VB8mTRShnsvq060UEYxTUcy4M0lhSmMXSSj9Bc/DFA==
+  dependencies:
+    "@storybook/channels" "7.0.0-alpha.56"
+    "@storybook/client-logger" "7.0.0-alpha.56"
+    "@storybook/core-events" "7.0.0-alpha.56"
+    "@storybook/csf" next
+    "@storybook/router" "7.0.0-alpha.56"
+    "@storybook/theming" "7.0.0-alpha.56"
+    "@storybook/types" "7.0.0-alpha.56"
     dequal "^2.0.2"
     global "^4.4.0"
     lodash "^4.17.21"
@@ -2590,6 +2623,15 @@
     memoizerific "^1.11.3"
     qs "^6.10.0"
 
+"@storybook/router@7.0.0-alpha.56":
+  version "7.0.0-alpha.56"
+  resolved "https://registry.yarnpkg.com/@storybook/router/-/router-7.0.0-alpha.56.tgz#854ced67745306c2cfb82ac5c71024783a0714bd"
+  integrity sha512-NGNIHRJhkyCnvvVWLWrDzVt8/lCCjWibg/PTajvcNlBZVuDULsqlWdt2nX8K+06ygbCC1qZIj4h9jG+sKClxdg==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-alpha.56"
+    memoizerific "^1.11.3"
+    qs "^6.10.0"
+
 "@storybook/semver@^7.3.2":
   version "7.3.2"
   resolved "https://registry.yarnpkg.com/@storybook/semver/-/semver-7.3.2.tgz#f3b9c44a1c9a0b933c04e66d0048fcf2fa10dac0"
@@ -2652,6 +2694,15 @@
   dependencies:
     "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
     "@storybook/client-logger" "7.0.0-alpha.55"
+    memoizerific "^1.11.3"
+
+"@storybook/theming@7.0.0-alpha.56":
+  version "7.0.0-alpha.56"
+  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-alpha.56.tgz#618b5cf3623a8319b7bcc1c5e6cb8b91e7e015ab"
+  integrity sha512-OIjC9dK36e7tE2vOIfno4osG23EFJva0pHetTqFoMvPNMnNkto5wyYa0JOZRWRGVOGNg6dXZt+vo+kLTme9Cqg==
+  dependencies:
+    "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
+    "@storybook/client-logger" "7.0.0-alpha.56"
     memoizerific "^1.11.3"
 
 "@storybook/types@7.0.0-alpha.55":
