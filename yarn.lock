@@ -2160,14 +2160,6 @@
     memoizerific "^1.11.3"
     util-deprecate "^1.0.2"
 
-"@storybook/core-client@7.0.0-alpha.56":
-  version "7.0.0-alpha.56"
-  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-alpha.56.tgz#ee188f6c8dbdee2a4b354e2fc4a04e31c841ecea"
-  integrity sha512-NDqYHmo60JMk9/DjoqRySfBDfm3RxLdf4opQnC0zj3/avV03QcFczQ6JX4WyHTokXrB78WzisLETIiK2QSnnug==
-  dependencies:
-    "@storybook/client-logger" "7.0.0-alpha.56"
-    "@storybook/preview-api" "7.0.0-alpha.56"
-
 "@storybook/core-client@7.0.0-alpha.58":
   version "7.0.0-alpha.58"
   resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-alpha.58.tgz#1fe916e46aa58e15b9af0a477eea74ab4d6ef110"
@@ -2344,18 +2336,6 @@
   version "0.0.1-next.4"
   resolved "https://registry.yarnpkg.com/@storybook/docs-mdx/-/docs-mdx-0.0.1-next.4.tgz#fd583693ea79a303cc972287f05906168ca16e82"
   integrity sha512-a1wiJbxBzikxl73dxyteeylPN7fpVd2JHrcnpX8O3ztPiaX2XQOJM4+7u0xndvn07ZtZzOnH5m9iHP8BJOwXZQ==
-
-"@storybook/docs-tools@7.0.0-alpha.56":
-  version "7.0.0-alpha.56"
-  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.0.0-alpha.56.tgz#469e53e98c0acdc15f60f91ea10437f24e8dd15a"
-  integrity sha512-UjiW7SeEzvWHDrY84hl7QA/0ft9f20qyQ+YNdve95JbhsoR1Ot6V1KmjS2yEPycaZPVjM/u9bx71Jy4harsx2A==
-  dependencies:
-    "@babel/core" "^7.12.10"
-    "@storybook/core-common" "7.0.0-alpha.56"
-    "@storybook/preview-api" "7.0.0-alpha.56"
-    "@storybook/types" "7.0.0-alpha.56"
-    doctrine "^3.0.0"
-    lodash "^4.17.21"
 
 "@storybook/docs-tools@7.0.0-alpha.58":
   version "7.0.0-alpha.58"
@@ -2534,31 +2514,6 @@
     magic-string "^0.26.1"
     react-docgen "^6.0.0-alpha.3"
     vite "^3.1.3"
-
-"@storybook/react@7.0.0-alpha.56":
-  version "7.0.0-alpha.56"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0-alpha.56.tgz#dfd1e6cbed07b3c9bd833edff3d9dd93dfc39445"
-  integrity sha512-6yjwf0XjCeQkA/KcNZLxi/EZN/WmYlh7e7uW7eYsFemDanH+AJrCUqF6IKy+JRF94K/Ic4HiwJ2uMwxelTf0Zg==
-  dependencies:
-    "@storybook/client-logger" "7.0.0-alpha.56"
-    "@storybook/core-client" "7.0.0-alpha.56"
-    "@storybook/docs-tools" "7.0.0-alpha.56"
-    "@storybook/preview-api" "7.0.0-alpha.56"
-    "@storybook/types" "7.0.0-alpha.56"
-    "@types/estree" "^0.0.51"
-    "@types/node" "^16.0.0"
-    acorn "^7.4.1"
-    acorn-jsx "^5.3.1"
-    acorn-walk "^7.2.0"
-    escodegen "^2.0.0"
-    global "^4.4.0"
-    html-tags "^3.1.0"
-    lodash "^4.17.21"
-    prop-types "^15.7.2"
-    react-element-to-jsx-string "^15.0.0"
-    ts-dedent "^2.0.0"
-    type-fest "^2.19.0"
-    util-deprecate "^1.0.2"
 
 "@storybook/react@7.0.0-alpha.58":
   version "7.0.0-alpha.58"
