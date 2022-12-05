@@ -2168,35 +2168,6 @@
     "@storybook/client-logger" "7.0.0-alpha.58"
     "@storybook/preview-api" "7.0.0-alpha.58"
 
-"@storybook/core-common@7.0.0-alpha.56":
-  version "7.0.0-alpha.56"
-  resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.0.0-alpha.56.tgz#30698f0379380802bab0f364be83130d3f48d986"
-  integrity sha512-LK8GnPObrD9fEKGc9IKkNnYH/ob8vpD/YXe+gqPfYcMj4DnL0SvC0uHYWyuy5/74EfgaZ6Dr/YD7NL1V87VVRg==
-  dependencies:
-    "@babel/core" "^7.20.2"
-    "@storybook/node-logger" "7.0.0-alpha.56"
-    "@storybook/types" "7.0.0-alpha.56"
-    "@types/babel__core" "^7.1.20"
-    "@types/express" "^4.7.0"
-    "@types/node" "^16.0.0"
-    "@types/pretty-hrtime" "^1.0.0"
-    chalk "^4.1.0"
-    esbuild "^0.14.48"
-    esbuild-register "^3.3.3"
-    express "^4.17.1"
-    file-system-cache "^2.0.0"
-    find-up "^5.0.0"
-    fs-extra "^9.0.1"
-    glob "^7.1.6"
-    handlebars "^4.7.7"
-    lazy-universal-dotenv "^3.0.1"
-    picomatch "^2.3.0"
-    pkg-dir "^5.0.0"
-    pretty-hrtime "^1.0.3"
-    resolve-from "^5.0.0"
-    slash "^3.0.0"
-    ts-dedent "^2.0.0"
-
 "@storybook/core-common@7.0.0-alpha.58":
   version "7.0.0-alpha.58"
   resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.0.0-alpha.58.tgz#329894d286b51661cbd2edd4676673621aca6ad4"
@@ -2425,16 +2396,6 @@
   integrity sha512-Q8FuGusfrZcpe4EfHCIdAWsys1VTqWgl5iM3A02feeoFR3Y36JSLP0nlWDhxH2CxuWv7oiu06U2bhrDl+rTx9w==
   dependencies:
     loader-utils "^2.0.0"
-
-"@storybook/node-logger@7.0.0-alpha.56":
-  version "7.0.0-alpha.56"
-  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.0.0-alpha.56.tgz#ad4c4624dc51ef27e135c9a0a9bc253d8b9d383a"
-  integrity sha512-LlJA92gJDTFM/aSPeywLsuc97dA1t5y+QBckfNrHZgmELMQTelrqb174gPJ3J8KoUa6QAOTIxE2bZQ9wUoSJtg==
-  dependencies:
-    "@types/npmlog" "^4.1.2"
-    chalk "^4.1.0"
-    npmlog "^5.0.1"
-    pretty-hrtime "^1.0.3"
 
 "@storybook/node-logger@7.0.0-alpha.58":
   version "7.0.0-alpha.58"
@@ -10387,10 +10348,10 @@ vercel@28.7.2:
     "@vercel/static-build" "1.0.42"
     update-notifier "5.1.0"
 
-vite@3.2.4, vite@^3.0.0, vite@^3.1.3:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-3.2.4.tgz#d8c7892dd4268064e04fffbe7d866207dd24166e"
-  integrity sha512-Z2X6SRAffOUYTa+sLy3NQ7nlHFU100xwanq1WDwqaiFiCe+25zdxP1TfCS5ojPV2oDDcXudHIoPnI1Z/66B7Yw==
+vite@3.2.5, vite@^3.0.0, vite@^3.1.3:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-3.2.5.tgz#dee5678172a8a0ab3e547ad4148c3d547f90e86a"
+  integrity sha512-4mVEpXpSOgrssFZAOmGIr85wPHKvaDAcXqxVxVRZhljkJOMZi1ibLibzjLHzJvcok8BMguLc7g1W6W/GqZbLdQ==
   dependencies:
     esbuild "^0.15.9"
     postcss "^8.4.18"
