@@ -1999,20 +1999,20 @@
     slash "^3.0.0"
     util "^0.12.4"
 
-"@storybook/builder-vite@7.0.0-alpha.56":
-  version "7.0.0-alpha.56"
-  resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.0.0-alpha.56.tgz#217b4559fc075c5f61ddf529d8399fbe8db9aae9"
-  integrity sha512-jRBYK6xXmzQAT5toVzyn/jmt4xsr6N68GIMnBCh7IvFgnF+/jfR46+jQSLG1p+Djp6sQ4+ocYrGCocn1wFZi8A==
+"@storybook/builder-vite@7.0.0-alpha.58":
+  version "7.0.0-alpha.58"
+  resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.0.0-alpha.58.tgz#e924b1ef055c818f6276844530e784e9ace588de"
+  integrity sha512-JEfMgpS6Mwrci92KBeOPxlW/sQdhDz3dxih0L8ZrUEISfj6lk90n+dqTO2TPlADCMPdGAJzACzSuNk7wqikizA==
   dependencies:
     "@joshwooding/vite-plugin-react-docgen-typescript" "0.0.5"
-    "@storybook/client-logger" "7.0.0-alpha.56"
-    "@storybook/core-common" "7.0.0-alpha.56"
+    "@storybook/client-logger" "7.0.0-alpha.58"
+    "@storybook/core-common" "7.0.0-alpha.58"
     "@storybook/mdx2-csf" next
-    "@storybook/node-logger" "7.0.0-alpha.56"
-    "@storybook/preview" "7.0.0-alpha.56"
-    "@storybook/preview-api" "7.0.0-alpha.56"
-    "@storybook/source-loader" "7.0.0-alpha.56"
-    "@storybook/types" "7.0.0-alpha.56"
+    "@storybook/node-logger" "7.0.0-alpha.58"
+    "@storybook/preview" "7.0.0-alpha.58"
+    "@storybook/preview-api" "7.0.0-alpha.58"
+    "@storybook/source-loader" "7.0.0-alpha.58"
+    "@storybook/types" "7.0.0-alpha.58"
     "@vitejs/plugin-react" "^2.0.0"
     browser-assert "^1.2.1"
     es-module-lexer "^0.9.3"
@@ -2179,6 +2179,14 @@
   dependencies:
     "@storybook/client-logger" "7.0.0-alpha.56"
     "@storybook/preview-api" "7.0.0-alpha.56"
+
+"@storybook/core-client@7.0.0-alpha.58":
+  version "7.0.0-alpha.58"
+  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-alpha.58.tgz#1fe916e46aa58e15b9af0a477eea74ab4d6ef110"
+  integrity sha512-kG0WdixyZNvJatL/ltrkw0/xyJv+KFGGaU8lTDyz4kEi4Zh8o4bOfvfl/+0jbSiiLLKgBTYP1o63deGL11xFKQ==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-alpha.58"
+    "@storybook/preview-api" "7.0.0-alpha.58"
 
 "@storybook/core-common@7.0.0-alpha.56":
   version "7.0.0-alpha.56"
@@ -2519,20 +2527,20 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/preview@7.0.0-alpha.56":
-  version "7.0.0-alpha.56"
-  resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-7.0.0-alpha.56.tgz#84388a4c7dd074452acdba56277d0e8f4698942d"
-  integrity sha512-KWYx9jH6pKJ/tOxi2UcHuE/xjUmfPWPxxH7AZbGCz3DCakHnmlYxiiIzGEeIceZ4n5mtWFSYJU360YBIHAx+4w==
+"@storybook/preview@7.0.0-alpha.58":
+  version "7.0.0-alpha.58"
+  resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-7.0.0-alpha.58.tgz#e9f1914388c7aefe026ab72333dd487287068f82"
+  integrity sha512-Ptd+Ej+C/UV/nq5kDYGvnCQyfgN8lLNjtFOQiSgSIqkRrvmCkp2oo76xojO8+NyLeefQ1zW1giICxfjDsuFZNw==
 
-"@storybook/react-vite@7.0.0-alpha.56":
-  version "7.0.0-alpha.56"
-  resolved "https://registry.yarnpkg.com/@storybook/react-vite/-/react-vite-7.0.0-alpha.56.tgz#fcbf7f6014bf765f250f52de8de09d4cea89da9e"
-  integrity sha512-Lr8fIfXpSszp1ESP2ZSyOL2OtchXLtI2Oy0fgkhi37GygoPN8+EKARLLOQSPQrCKyYKLrevUwp62O8+21dst3A==
+"@storybook/react-vite@7.0.0-alpha.58":
+  version "7.0.0-alpha.58"
+  resolved "https://registry.yarnpkg.com/@storybook/react-vite/-/react-vite-7.0.0-alpha.58.tgz#4137cfb3e327768af0f13c890e0ab43c38db3512"
+  integrity sha512-HSuEo5z6Ocu7q7yHRF9oF4YORKBQdyrMrW89d3SRszXcVBxv+QjYgQZX59sRiPfUdJTaMKn+biBlDhqZw7w9wQ==
   dependencies:
     "@joshwooding/vite-plugin-react-docgen-typescript" "^0.0.5"
     "@rollup/pluginutils" "^4.2.0"
-    "@storybook/builder-vite" "7.0.0-alpha.56"
-    "@storybook/react" "7.0.0-alpha.56"
+    "@storybook/builder-vite" "7.0.0-alpha.58"
+    "@storybook/react" "7.0.0-alpha.58"
     "@vitejs/plugin-react" "^2.0.0"
     ast-types "^0.14.2"
     magic-string "^0.26.1"
@@ -2549,6 +2557,31 @@
     "@storybook/docs-tools" "7.0.0-alpha.56"
     "@storybook/preview-api" "7.0.0-alpha.56"
     "@storybook/types" "7.0.0-alpha.56"
+    "@types/estree" "^0.0.51"
+    "@types/node" "^16.0.0"
+    acorn "^7.4.1"
+    acorn-jsx "^5.3.1"
+    acorn-walk "^7.2.0"
+    escodegen "^2.0.0"
+    global "^4.4.0"
+    html-tags "^3.1.0"
+    lodash "^4.17.21"
+    prop-types "^15.7.2"
+    react-element-to-jsx-string "^15.0.0"
+    ts-dedent "^2.0.0"
+    type-fest "^2.19.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/react@7.0.0-alpha.58":
+  version "7.0.0-alpha.58"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0-alpha.58.tgz#51ae81b06bf6c2e7a4b898fa58bea5d392fe4958"
+  integrity sha512-vNUqseE247alKg5uZYFwdhwkvfENOjcBTRYPWBnrJdJRjaEnRpx//HO11vLr35OQMjc5UVSernNJhW0CRQM2Ig==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-alpha.58"
+    "@storybook/core-client" "7.0.0-alpha.58"
+    "@storybook/docs-tools" "7.0.0-alpha.58"
+    "@storybook/preview-api" "7.0.0-alpha.58"
+    "@storybook/types" "7.0.0-alpha.58"
     "@types/estree" "^0.0.51"
     "@types/node" "^16.0.0"
     acorn "^7.4.1"
@@ -2601,13 +2634,13 @@
     core-js "^3.6.5"
     find-up "^4.1.0"
 
-"@storybook/source-loader@7.0.0-alpha.56":
-  version "7.0.0-alpha.56"
-  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-7.0.0-alpha.56.tgz#e679a93a2e8b56a1ba5e2398095adc64f0ddc49d"
-  integrity sha512-AXbIU2nlcp8U+lMH5h1M+BD/pXVbUy6m9J9wE6TakdAnrWTgOmFuJ6x2lLfrp1KKw2MBkUBu4yGYDx5n4VuV0w==
+"@storybook/source-loader@7.0.0-alpha.58":
+  version "7.0.0-alpha.58"
+  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-7.0.0-alpha.58.tgz#ef4066b3281fefd5c5d798cbf13d96e7b582c433"
+  integrity sha512-xyEQHOwAfdWtqWQZ+yW/OeuXFMxedznqe2AfMGT0VOtkwRfx9VSkYFahHo7mMjMvbjn+y/BEXqVrvujdRlTJAw==
   dependencies:
     "@storybook/csf" next
-    "@storybook/types" "7.0.0-alpha.56"
+    "@storybook/types" "7.0.0-alpha.58"
     estraverse "^5.2.0"
     lodash "^4.17.21"
     prettier "^2.8.0"
