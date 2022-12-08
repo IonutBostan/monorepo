@@ -1654,28 +1654,6 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-5.3.0.tgz#0ec9264cf54a527671d990eb874e030b55b70dcc"
   integrity sha512-CX6t4SYQ37lzxicAqsBtxA3OseeoVrh9cSJ5PFYam0GksYlupRfy1A+Q4aYD3zvcfECLc0zO2u+ZnR2UYKvCrw==
 
-"@storybook/addon-actions@7.0.0-beta.0":
-  version "7.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-7.0.0-beta.0.tgz#e56fdcc0ece5bc54d07cb3b84e0d433eb22ba366"
-  integrity sha512-oCwsz57nr7zOG14kUg1sJCU9W4jdBR88LA22XkYpWleJA2dWCrPIHgZXy8P8BB0AzhL2iFYa75LYMzU7dK0MMQ==
-  dependencies:
-    "@storybook/client-logger" "7.0.0-beta.0"
-    "@storybook/components" "7.0.0-beta.0"
-    "@storybook/core-events" "7.0.0-beta.0"
-    "@storybook/manager-api" "7.0.0-beta.0"
-    "@storybook/preview-api" "7.0.0-beta.0"
-    "@storybook/theming" "7.0.0-beta.0"
-    "@storybook/types" "7.0.0-beta.0"
-    dequal "^2.0.2"
-    global "^4.4.0"
-    lodash "^4.17.21"
-    polished "^4.2.2"
-    prop-types "^15.7.2"
-    react-inspector "^6.0.0"
-    telejson "^7.0.3"
-    ts-dedent "^2.0.0"
-    uuid-browser "^3.1.0"
-
 "@storybook/addon-actions@7.0.0-beta.1":
   version "7.0.0-beta.1"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-7.0.0-beta.1.tgz#85bd70227daa34aadf8f55142150edb03722a66e"
