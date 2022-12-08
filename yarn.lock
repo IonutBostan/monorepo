@@ -1961,24 +1961,24 @@
     slash "^3.0.0"
     util "^0.12.4"
 
-"@storybook/builder-vite@7.0.0-beta.0":
-  version "7.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.0.0-beta.0.tgz#c4316bac37f7ad1cb582699cf78070b1fcf10989"
-  integrity sha512-TK3kkU+iwZQDGbg/vohKusfmNhs8szjopxdUVHFtng/IJ2hvXZtaSZtHIOO7lzqp7dC5LDECuayY2sYuR97TCg==
+"@storybook/builder-vite@7.0.0-beta.1":
+  version "7.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.0.0-beta.1.tgz#1b54b03e2422fa78b9bf0f76e3a77adf115435a1"
+  integrity sha512-BH92E7IAvsCKf9GwkYdW8LZq0fG11jc2FbbpfBA5SoPMtY+L6RbnDQgXVRwymCJsQ8cfmLRPYvh/cYvmV6ikfw==
   dependencies:
     "@joshwooding/vite-plugin-react-docgen-typescript" "0.0.5"
-    "@storybook/client-logger" "7.0.0-beta.0"
-    "@storybook/core-common" "7.0.0-beta.0"
-    "@storybook/csf-plugin" "7.0.0-beta.0"
+    "@storybook/client-logger" "7.0.0-beta.1"
+    "@storybook/core-common" "7.0.0-beta.1"
+    "@storybook/csf-plugin" "7.0.0-beta.1"
     "@storybook/mdx2-csf" next
-    "@storybook/node-logger" "7.0.0-beta.0"
-    "@storybook/preview" "7.0.0-beta.0"
-    "@storybook/preview-api" "7.0.0-beta.0"
-    "@storybook/types" "7.0.0-beta.0"
+    "@storybook/node-logger" "7.0.0-beta.1"
+    "@storybook/preview" "7.0.0-beta.1"
+    "@storybook/preview-api" "7.0.0-beta.1"
+    "@storybook/types" "7.0.0-beta.1"
     "@vitejs/plugin-react" "^2.0.0"
     browser-assert "^1.2.1"
     es-module-lexer "^0.9.3"
-    express "^4.17.1"
+    express "^4.17.3"
     fs-extra "^9.0.1"
     glob "^7.2.0"
     glob-promise "^4.2.0"
@@ -2142,6 +2142,14 @@
   dependencies:
     "@storybook/client-logger" "7.0.0-beta.0"
     "@storybook/preview-api" "7.0.0-beta.0"
+
+"@storybook/core-client@7.0.0-beta.1":
+  version "7.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-beta.1.tgz#a620ffc457807b89fa73931636a63a45c29812fa"
+  integrity sha512-/BjtAwiuXGuUU7AnaBAbSpPyr3kpzKSisplpJf8whZrNN9toVwd9cApezv/oSIrizNIcvI5ZUWYTlRpe7Wy5PQ==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.1"
+    "@storybook/preview-api" "7.0.0-beta.1"
 
 "@storybook/core-common@7.0.0-beta.0":
   version "7.0.0-beta.0"
@@ -2501,20 +2509,20 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/preview@7.0.0-beta.0":
-  version "7.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-7.0.0-beta.0.tgz#da1f59ec581772d242e22b5a1b7d9d44a1febc01"
-  integrity sha512-WxkcDb+UXaT0Vxzfs+mE2d193y3GQuRicJdZONMBsjbQQ5PyW0vFQmzcFDphXMFWJK8hiyCzfcnVNpR0VElUWg==
+"@storybook/preview@7.0.0-beta.1":
+  version "7.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-7.0.0-beta.1.tgz#3d6cd423039dc536477302297569ee4fc92168fe"
+  integrity sha512-jAjDPGUBgxs4qYdCbRzfsB+/OYDtYe6bP3XkXx2sdxjcHVqnrEI/EpaW2+5SpRX5yCrdLODYq8H8cIb0w5+uCQ==
 
-"@storybook/react-vite@7.0.0-beta.0":
-  version "7.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@storybook/react-vite/-/react-vite-7.0.0-beta.0.tgz#731a9b23e3146648a16a46f48b671cdb99001c90"
-  integrity sha512-bKuhVEz13f+mu9ppEGZ8v0czBUqzt1WWq9G7QUd/1++QA+8UwsfyOXOJL6ldB0uyD7IQy/d/O1O3BFPRHp3JcA==
+"@storybook/react-vite@7.0.0-beta.1":
+  version "7.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@storybook/react-vite/-/react-vite-7.0.0-beta.1.tgz#c0412c2c0995c1e4ce46dcb2bcaabde9347e6fbd"
+  integrity sha512-E1PgOqw5Ex81YqEGa8C6Og89ejPP07BXsECNK9xcQ3LufhzkUyFo3Pa5F/rvikQXQKZgc4VswoanLtqYGt8aqw==
   dependencies:
     "@joshwooding/vite-plugin-react-docgen-typescript" "^0.0.5"
     "@rollup/pluginutils" "^4.2.0"
-    "@storybook/builder-vite" "7.0.0-beta.0"
-    "@storybook/react" "7.0.0-beta.0"
+    "@storybook/builder-vite" "7.0.0-beta.1"
+    "@storybook/react" "7.0.0-beta.1"
     "@vitejs/plugin-react" "^2.0.0"
     ast-types "^0.14.2"
     magic-string "^0.26.1"
@@ -2531,6 +2539,31 @@
     "@storybook/docs-tools" "7.0.0-beta.0"
     "@storybook/preview-api" "7.0.0-beta.0"
     "@storybook/types" "7.0.0-beta.0"
+    "@types/estree" "^0.0.51"
+    "@types/node" "^16.0.0"
+    acorn "^7.4.1"
+    acorn-jsx "^5.3.1"
+    acorn-walk "^7.2.0"
+    escodegen "^2.0.0"
+    global "^4.4.0"
+    html-tags "^3.1.0"
+    lodash "^4.17.21"
+    prop-types "^15.7.2"
+    react-element-to-jsx-string "^15.0.0"
+    ts-dedent "^2.0.0"
+    type-fest "^2.19.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/react@7.0.0-beta.1":
+  version "7.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0-beta.1.tgz#718ba0f0a366392eeadc0ee8340f87faca407be6"
+  integrity sha512-jeCud86SQ2vmnIgVL2mqMGcyLi+gFhgBAY1NlsUdl6x4D/yjshs+osrKPvoBEszFtlcA/zy55+B3FrG+0X+Faw==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.1"
+    "@storybook/core-client" "7.0.0-beta.1"
+    "@storybook/docs-tools" "7.0.0-beta.1"
+    "@storybook/preview-api" "7.0.0-beta.1"
+    "@storybook/types" "7.0.0-beta.1"
     "@types/estree" "^0.0.51"
     "@types/node" "^16.0.0"
     acorn "^7.4.1"
