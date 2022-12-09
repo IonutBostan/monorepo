@@ -39,5 +39,6 @@ module.exports = {
     'dist',
     '.turbo',
     '.storybook',
+    'vite.config.ts',
   ],
 }
