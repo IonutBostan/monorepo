@@ -2247,14 +2247,6 @@
     memoizerific "^1.11.3"
     util-deprecate "^1.0.2"
 
-"@storybook/core-client@7.0.0-beta.1":
-  version "7.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-beta.1.tgz#a620ffc457807b89fa73931636a63a45c29812fa"
-  integrity sha512-/BjtAwiuXGuUU7AnaBAbSpPyr3kpzKSisplpJf8whZrNN9toVwd9cApezv/oSIrizNIcvI5ZUWYTlRpe7Wy5PQ==
-  dependencies:
-    "@storybook/client-logger" "7.0.0-beta.1"
-    "@storybook/preview-api" "7.0.0-beta.1"
-
 "@storybook/core-client@7.0.0-beta.2":
   version "7.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-beta.2.tgz#9c8e9b6130cc181d235c7f8622ba5afe3408fbac"
@@ -2447,18 +2439,6 @@
   version "0.0.1-next.4"
   resolved "https://registry.yarnpkg.com/@storybook/docs-mdx/-/docs-mdx-0.0.1-next.4.tgz#fd583693ea79a303cc972287f05906168ca16e82"
   integrity sha512-a1wiJbxBzikxl73dxyteeylPN7fpVd2JHrcnpX8O3ztPiaX2XQOJM4+7u0xndvn07ZtZzOnH5m9iHP8BJOwXZQ==
-
-"@storybook/docs-tools@7.0.0-beta.1":
-  version "7.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.0.0-beta.1.tgz#8c01399997d5892e86e3b8f304a27707c93dc77e"
-  integrity sha512-KcRVvSCYKS0CE30QQwLpmrmSqu6s9DjtdsY+lYCcdL0egQSaLTxA0J1W+Nw3Jaup2eSldP/8LjpK+GYzXMrOcw==
-  dependencies:
-    "@babel/core" "^7.12.10"
-    "@storybook/core-common" "7.0.0-beta.1"
-    "@storybook/preview-api" "7.0.0-beta.1"
-    "@storybook/types" "7.0.0-beta.1"
-    doctrine "^3.0.0"
-    lodash "^4.17.21"
 
 "@storybook/docs-tools@7.0.0-beta.2":
   version "7.0.0-beta.2"
@@ -2680,31 +2660,6 @@
     magic-string "^0.26.1"
     react-docgen "^6.0.0-alpha.3"
     vite "^3.0.0||^4.0.0"
-
-"@storybook/react@7.0.0-beta.1":
-  version "7.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0-beta.1.tgz#718ba0f0a366392eeadc0ee8340f87faca407be6"
-  integrity sha512-jeCud86SQ2vmnIgVL2mqMGcyLi+gFhgBAY1NlsUdl6x4D/yjshs+osrKPvoBEszFtlcA/zy55+B3FrG+0X+Faw==
-  dependencies:
-    "@storybook/client-logger" "7.0.0-beta.1"
-    "@storybook/core-client" "7.0.0-beta.1"
-    "@storybook/docs-tools" "7.0.0-beta.1"
-    "@storybook/preview-api" "7.0.0-beta.1"
-    "@storybook/types" "7.0.0-beta.1"
-    "@types/estree" "^0.0.51"
-    "@types/node" "^16.0.0"
-    acorn "^7.4.1"
-    acorn-jsx "^5.3.1"
-    acorn-walk "^7.2.0"
-    escodegen "^2.0.0"
-    global "^4.4.0"
-    html-tags "^3.1.0"
-    lodash "^4.17.21"
-    prop-types "^15.7.2"
-    react-element-to-jsx-string "^15.0.0"
-    ts-dedent "^2.0.0"
-    type-fest "^2.19.0"
-    util-deprecate "^1.0.2"
 
 "@storybook/react@7.0.0-beta.2":
   version "7.0.0-beta.2"
