@@ -1786,6 +1786,28 @@
     ts-dedent "^2.0.0"
     uuid-browser "^3.1.0"
 
+"@storybook/addon-actions@7.0.0-beta.3":
+  version "7.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-7.0.0-beta.3.tgz#75cc13739d1b51620f36ab18f2ae349f81b5f2f9"
+  integrity sha512-t4Dznhmq4xdNg+xvMn3KjkEDb+dUO6er9hOPQZ8LnOl8Ixfrhp4BdBmZFI0aZPCJqLGslkZ1u3W1ou5TRyC8lw==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.3"
+    "@storybook/components" "7.0.0-beta.3"
+    "@storybook/core-events" "7.0.0-beta.3"
+    "@storybook/manager-api" "7.0.0-beta.3"
+    "@storybook/preview-api" "7.0.0-beta.3"
+    "@storybook/theming" "7.0.0-beta.3"
+    "@storybook/types" "7.0.0-beta.3"
+    dequal "^2.0.2"
+    global "^4.4.0"
+    lodash "^4.17.21"
+    polished "^4.2.2"
+    prop-types "^15.7.2"
+    react-inspector "^6.0.0"
+    telejson "^7.0.3"
+    ts-dedent "^2.0.0"
+    uuid-browser "^3.1.0"
+
 "@storybook/addon-backgrounds@7.0.0-beta.2":
   version "7.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/@storybook/addon-backgrounds/-/addon-backgrounds-7.0.0-beta.2.tgz#7e5c4c9a6d6597484c8daf580ab1940e504b7c6e"
@@ -2208,6 +2230,18 @@
     "@storybook/csf" next
     "@storybook/theming" "7.0.0-beta.2"
     "@storybook/types" "7.0.0-beta.2"
+    memoizerific "^1.11.3"
+    util-deprecate "^1.0.2"
+
+"@storybook/components@7.0.0-beta.3":
+  version "7.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.0.0-beta.3.tgz#3c76e07f9b70529dd46c11228ab0ef458c6cc854"
+  integrity sha512-vKTgcre4Yq9lkR92XbGvS7oe/UHirbnCCeHjXk554f/Mwby5n4gE8hppnVvBSW5v0S55tcHWr3LhADkRmHmfTA==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.3"
+    "@storybook/csf" next
+    "@storybook/theming" "7.0.0-beta.3"
+    "@storybook/types" "7.0.0-beta.3"
     memoizerific "^1.11.3"
     util-deprecate "^1.0.2"
 
