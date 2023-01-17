@@ -3233,20 +3233,20 @@
     node-gyp-build "^4.2.2"
     resolve-from "^5.0.0"
 
-"@vercel/node-bridge@3.1.8":
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/@vercel/node-bridge/-/node-bridge-3.1.8.tgz#ff0205f69e7640b703a99f3660b72113339c6f63"
-  integrity sha512-zF4lUQLq2uqCUl1vm9KITK/rOVPeCCuSle5skqVi4ybQDaXaHpumBT7NovuOD5ls4AJxqVcyiOOheRT4f/le3A==
+"@vercel/node-bridge@3.1.9":
+  version "3.1.9"
+  resolved "https://registry.yarnpkg.com/@vercel/node-bridge/-/node-bridge-3.1.9.tgz#5c49f107593a7d334e287351ea3a37a806770b0b"
+  integrity sha512-07Bgb6jm8OMTlxGRC4kOY0ewi4xLtMcK3z45T+GKRO7oKeA4vhRGFbT5BsJKF3V5/nj6TYAsWsErBf4RGVSBcw==
 
-"@vercel/node@2.8.11":
-  version "2.8.11"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-2.8.11.tgz#f4b9cb0c05f0aa0efea7caa3b06d0020d2f866b1"
-  integrity sha512-XYkyNe+C+FIDc2TnlZxyS7cc0PbwGvuK3AFU75KaB898UUnOueEki2i0s8dokG1M9T3dT2QnbozyZ0anxT8jlQ==
+"@vercel/node@2.8.12":
+  version "2.8.12"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-2.8.12.tgz#79501d6816af0b1ad08c94d3445fc19e9d3286dd"
+  integrity sha512-JG5ZDF/8+zub13cJio0QOd4czNx0+UZMJ4C74fuvaYNWNaO0dDyfdRUeQhgKM+3xnW73AGOKF+jRs4JmyeKcHQ==
   dependencies:
     "@edge-runtime/vm" "2.0.0"
     "@types/node" "14.18.33"
     "@vercel/build-utils" "5.8.3"
-    "@vercel/node-bridge" "3.1.8"
+    "@vercel/node-bridge" "3.1.9"
     "@vercel/static-config" "2.0.11"
     edge-runtime "2.0.0"
     esbuild "0.14.47"
@@ -10089,16 +10089,16 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
-vercel@28.12.4:
-  version "28.12.4"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-28.12.4.tgz#b429a2982e5bbb760d9c50a0698e9834b5e0476e"
-  integrity sha512-UMbOsOtA7EdT0XL1m0FricVLSlWNrcf0O2srkaNvYHKqaSq7Q/JCVJuBcXEfNIz0M0eX7mb/977xkXamT4cpnA==
+vercel@28.12.5:
+  version "28.12.5"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-28.12.5.tgz#c473af12b1f1e3697a6f523ce43606b2a60fe9eb"
+  integrity sha512-9tK7w6mLrlWszWAe8j33oZfkZHQl/MHIhTF3kuC9plRfD1VlGD9inVyQdvX68AK/s798PkbB6Tk1gUKFMqAt0Q==
   dependencies:
     "@vercel/build-utils" "5.8.3"
     "@vercel/go" "2.2.29"
     "@vercel/hydrogen" "0.0.43"
     "@vercel/next" "3.3.14"
-    "@vercel/node" "2.8.11"
+    "@vercel/node" "2.8.12"
     "@vercel/python" "3.1.39"
     "@vercel/redwood" "1.0.50"
     "@vercel/remix" "1.2.4"
