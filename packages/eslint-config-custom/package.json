@@ -20,7 +20,7 @@
     "eslint-plugin-storybook": "0.6.8"
   },
   "devDependencies": {
-    "typescript": "4.9.5"
+    "typescript": "5.0.3"
   },
   "publishConfig": {
     "access": "public"
