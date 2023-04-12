@@ -6268,12 +6268,12 @@ eslint-config-react-app@7.0.1:
     eslint-plugin-react-hooks "^4.3.0"
     eslint-plugin-testing-library "^5.0.1"
 
-eslint-config-turbo@0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/eslint-config-turbo/-/eslint-config-turbo-0.0.10.tgz#93c996b3a09da33b336e77a11ba6d5e2c323147a"
-  integrity sha512-o4ULFZYM1OihSd63eDGEuy9rt6tW4ma6xnW9grnr44BoJwKaGQko2aka9kfqQs0vtmwD1++Os3ThPHETmzkFzA==
+eslint-config-turbo@1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-turbo/-/eslint-config-turbo-1.9.0.tgz#c5a4dd75174918233bd8c513a5514c4617794f3a"
+  integrity sha512-DEwFRVitVZPPEEEiEIu/oIqTHDQnKHenYZXB2YhFCTUnBtRPoYuLGPqeB0x8jQzPTVq5D2XFjiXdnFWLx9/71Q==
   dependencies:
-    eslint-plugin-turbo "0.0.10"
+    eslint-plugin-turbo "1.9.0"
 
 eslint-import-resolver-node@^0.3.7:
   version "0.3.7"
@@ -6389,10 +6389,10 @@ eslint-plugin-testing-library@5.10.2, eslint-plugin-testing-library@^5.0.1:
   dependencies:
     "@typescript-eslint/utils" "^5.43.0"
 
-eslint-plugin-turbo@0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-turbo/-/eslint-plugin-turbo-0.0.10.tgz#9454a23902df46e6b3a697c131bcc6ac07bc8e76"
-  integrity sha512-T7QRwF4rjBQCJD9AHLHn9ShtHCHNkfIZW5Oio92WtQYhoU5jZCU3ynU+ONFXLuvoUx4dJ19WergIyHL+DwL2+g==
+eslint-plugin-turbo@1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-turbo/-/eslint-plugin-turbo-1.9.0.tgz#6443c086af5b47f2abd42fd71ac6a1bf78cd6f16"
+  integrity sha512-ttv1o+mD1uWxY9l+zeVS3X1iXdmfMzHwWE0VZvxxqxYW0thgLHA5eO9wyC/tdb1V9JdkiV7NmMJKyz+ew+sXuA==
 
 eslint-scope@5.1.1, eslint-scope@^5.1.1:
   version "5.1.1"
