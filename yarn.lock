@@ -11832,10 +11832,10 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
-vercel@29.3.0:
-  version "29.3.0"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-29.3.0.tgz#5a232ee6eba94d9b39b5d65114ecbb18f0852023"
-  integrity sha512-6YKCh+okPVcAOqNq9V3mK1j8kdVgNm4F7PTweVrtupEAX1F1V0cntcbtGbLAdGaONTA6PHxmeik9LnplInSW0Q==
+vercel@29.3.2:
+  version "29.3.2"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-29.3.2.tgz#e8f445d3e127692766bb164551e96855bfda44f1"
+  integrity sha512-paauJPO5PETowJR8WZ6Nn2ABWB5vYYsEPd+Ob2mhI2vGkXDMFs5LvWHias0dncXsvQDJ8m/xuyGOyqa2U7SFZw==
   dependencies:
     "@vercel/build-utils" "6.7.2"
     "@vercel/go" "2.5.1"
