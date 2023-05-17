@@ -20,6 +20,6 @@
     "config": "*",
     "tsconfig": "*",
     "typescript": "5.0.4",
-    "vite": "4.3.6"
+    "vite": "4.3.7"
   }
 }
