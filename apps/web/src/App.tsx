@@ -190,7 +190,9 @@ const App = () => (
                     <a
                       className="group -m-1 p-1"
                       aria-label="Vitejs"
+                      target="_blank"
                       href="https://vitejs.dev"
+                      rel="noreferrer"
                     >
                       <img
                         src="/vite.svg"
@@ -201,7 +203,9 @@ const App = () => (
                     <a
                       className="group -m-1 p-1"
                       aria-label="React"
+                      target="_blank"
                       href="https://reactjs.org"
+                      rel="noreferrer"
                     >
                       <img
                         src={reactLogo}
