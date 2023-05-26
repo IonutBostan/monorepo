@@ -13,7 +13,7 @@ on:
 jobs:
   Deploy-Production:
     runs-on:
-      ubuntu-latest
+      self-hosted
       # To use Remote Caching, uncomment the next lines and follow the steps below.
     env:
       TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
