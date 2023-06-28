@@ -19,7 +19,7 @@
     "@vitejs/plugin-react-swc": "3.3.2",
     "config": "*",
     "tsconfig": "*",
-    "typescript": "5.1.5",
+    "typescript": "5.1.6",
     "vite": "4.3.9"
   }
 }
