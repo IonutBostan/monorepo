@@ -28,7 +28,7 @@
     "@tailwindcss/typography": "0.5.9",
     "@tailwindcss/forms": "0.5.4",
     "turbo": "1.10.11",
-    "vercel": "31.1.0"
+    "vercel": "31.1.1"
   },
   "engines": {
     "node": ">=14.0.0"
