@@ -27,6 +27,6 @@
     "tsconfig": "*",
     "typescript": "5.2.2",
     "vite": "4.4.9",
-    "vitest": "0.34.5"
+    "vitest": "0.34.6"
   }
 }
