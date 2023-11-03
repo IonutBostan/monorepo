@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 
-type Pet = {
+interface Pet {
   images: string[]
   name: string
   city: string
@@ -49,14 +49,14 @@ const App = () => {
         <form className="bg-slate-100 shadow-md p-4 max-w-xs">
           <div className="pb-4">
             <div>Location</div>
-            <input className="w-full" type="text" placeholder="Location" />
+            <input className="w-full" placeholder="Location" type="text" />
           </div>
           <div className="pb-4">
             <div>Animal</div>
             <select
               className="w-full"
-              value={selectedAnimal}
               onChange={onChangeHandler}
+              value={selectedAnimal}
             >
               {animals.map(animal => (
                 <option key={animal} value={animal.toLowerCase()}>
@@ -70,7 +70,7 @@ const App = () => {
               <span className="capitalize">{selectedAnimal}</span> breed
             </div>
             <select className="w-full">
-              {breeds?.map(breed => (
+              {breeds.map(breed => (
                 <option key={breed} value={breed}>
                   {breed}
                 </option>
@@ -87,9 +87,9 @@ const App = () => {
       {pets.map((pet: Pet) => (
         <div>
           <img
-            className="rounded w-24 h-24"
-            src={pet.images?.[0]}
             alt={pet.name}
+            className="rounded w-24 h-24"
+            src={pet.images[0]}
           />
           <div className="info">
             <h1>{pet.name}</h1>

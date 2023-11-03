@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Combobox as SuiCombobox, Transition } from '@headlessui/react'
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
 
-type Person = {
+interface Person {
   id: number
   name: string
 }
@@ -44,29 +44,29 @@ const Combobox = () => {
 
   return (
     <div>
-      <SuiCombobox value={selected} onChange={setSelected} nullable>
+      <SuiCombobox nullable onChange={setSelected} value={selected}>
         <div className="relative mt-1">
           <div className="relative w-full cursor-default overflow-hidden rounded-lg bg-white text-left shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-teal-300 sm:text-sm">
             <SuiCombobox.Input
               className="w-full border-none py-2 pl-3 pr-10 text-sm leading-5 text-gray-900 focus:ring-0"
-              displayValue={(person: Person) => person?.name}
-              onChange={event => setQuery(event.target.value)}
+              displayValue={(person: Person) => person.name}
+              onChange={event => { setQuery(event.target.value); }}
             />
             <SuiCombobox.Button className="absolute inset-y-0 right-0 flex items-center pr-2">
               <ChevronUpDownIcon
-                className="h-5 w-5 text-gray-400"
                 aria-hidden="true"
+                className="h-5 w-5 text-gray-400"
               />
             </SuiCombobox.Button>
           </div>
           <Transition
+            afterLeave={() => { setQuery(''); }}
             enter="transition duration-100 ease-out"
             enterFrom="transform scale-95 opacity-0"
             enterTo="transform scale-100 opacity-100"
             leave="transition duration-75 ease-out"
             leaveFrom="transform scale-100 opacity-100"
             leaveTo="transform scale-95 opacity-0"
-            afterLeave={() => setQuery('')}
           >
             <SuiCombobox.Options className="absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
               {filteredPeople.length === 0 && query !== '' ? (
@@ -76,12 +76,12 @@ const Combobox = () => {
               ) : (
                 filteredPeople.map(person => (
                   <SuiCombobox.Option
-                    key={person.id}
                     className={({ active }) =>
                       `relative cursor-default select-none py-2 pl-10 pr-4 ${
                         active ? 'bg-teal-600 text-white' : 'text-gray-900'
                       }`
                     }
+                    key={person.id}
                     value={person}
                   >
                     {({ selected: selected2, active }) => (
@@ -99,7 +99,7 @@ const Combobox = () => {
                               active ? 'text-white' : 'text-teal-600'
                             }`}
                           >
-                            <CheckIcon className="h-5 w-5" aria-hidden="true" />
+                            <CheckIcon aria-hidden="true" className="h-5 w-5" />
                           </span>
                         ) : null}
                       </>

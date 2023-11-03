@@ -1,28 +1,11 @@
 {
   "name": "eslint-config-custom",
-  "version": "0.0.0",
-  "main": "index.js",
   "license": "MIT",
-  "files": [
-    "index.js"
-  ],
-  "dependencies": {
-    "eslint": "8.52.0",
-    "eslint-config-prettier": "9.0.0",
-    "eslint-plugin-react": "7.33.2",
-    "eslint-plugin-import": "2.29.0",
-    "eslint-plugin-testing-library": "6.1.0",
-    "eslint-config-turbo": "1.10.16",
-    "eslint-config-airbnb": "19.0.4",
-    "eslint-config-airbnb-base": "15.0.0",
-    "eslint-config-react-app": "7.0.1",
-    "eslint-config-airbnb-typescript": "17.1.0",
-    "eslint-plugin-storybook": "0.6.8"
-  },
+  "version": "0.0.0",
+  "private": true,
   "devDependencies": {
-    "typescript": "5.2.2"
-  },
-  "publishConfig": {
-    "access": "public"
+    "@vercel/style-guide": "^5.0.0",
+    "eslint-config-turbo": "^1.10.12",
+    "typescript": "^5.2.2"
   }
 }

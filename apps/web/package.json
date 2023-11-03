@@ -2,7 +2,6 @@
   "name": "web",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -23,6 +22,7 @@
     "@types/react-dom": "18.2.14",
     "@vitejs/plugin-react-swc": "3.4.1",
     "config": "*",
+    "eslint-config-custom": "*",
     "jsdom": "22.1.0",
     "tsconfig": "*",
     "typescript": "5.2.2",
