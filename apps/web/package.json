@@ -19,7 +19,7 @@
   "devDependencies": {
     "@testing-library/react": "14.0.0",
     "@types/react": "18.2.36",
-    "@types/react-dom": "18.2.14",
+    "@types/react-dom": "18.2.15",
     "@vitejs/plugin-react-swc": "3.4.1",
     "config": "*",
     "eslint-config-custom": "*",
