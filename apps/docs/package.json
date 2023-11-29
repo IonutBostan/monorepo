@@ -15,7 +15,7 @@
     "ui": "*"
   },
   "devDependencies": {
-    "@babel/core": "7.23.3",
+    "@babel/core": "7.23.5",
     "eslint-config-custom": "*",
     "@storybook/addon-actions": "7.5.1",
     "@storybook/addon-essentials": "7.5.1",
