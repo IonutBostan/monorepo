@@ -23,7 +23,7 @@
     "@storybook/addon-links": "7.5.1",
     "@storybook/addon-mdx-gfm": "7.5.1",
     "@storybook/react-vite": "7.5.1",
-    "@types/react": "18.2.66",
+    "@types/react": "18.2.67",
     "@types/react-dom": "18.2.22",
     "@vitejs/plugin-react": "4.2.1",
     "babel-loader": "9.1.3",
