@@ -26,7 +26,7 @@
     "prettier": "3.2.5",
     "tailwindcss": "3.4.1",
     "tsconfig": "*",
-    "@tailwindcss/typography": "0.5.10",
+    "@tailwindcss/typography": "0.5.11",
     "@tailwindcss/forms": "0.5.7",
     "turbo": "1.13.0",
     "vercel": "32.7.2"
