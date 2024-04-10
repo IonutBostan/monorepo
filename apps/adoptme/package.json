@@ -19,7 +19,7 @@
     "config": "*",
     "tsconfig": "*",
     "eslint-config-custom": "*",
-    "typescript": "5.4.4",
+    "typescript": "5.4.5",
     "vite": "4.5.0"
   }
 }
