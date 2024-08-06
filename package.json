@@ -28,7 +28,7 @@
     "tsconfig": "*",
     "@tailwindcss/typography": "0.5.13",
     "@tailwindcss/forms": "0.5.7",
-    "turbo": "1.13.3",
+    "turbo": "2.0.12",
     "vercel": "32.7.2"
   },
   "engines": {
